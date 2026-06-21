@@ -156,9 +156,10 @@ footer {
 }
 
 .founder-photo {
-    width: 260px;
+    width: 180px;        /* smaller, cleaner */
     height: auto;
     border-radius: 12px;
     border: 2px solid #3ABDFF;
     box-shadow: 0 0 20px #3ABDFF55;
+    object-fit: cover;
 }
