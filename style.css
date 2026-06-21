@@ -1,0 +1,111 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* HERO */
+.hero {
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+.sub {
+    font-size: 1.2rem;
+    color: #bfbfbf;
+    margin-top: 10px;
+}
+
+.support {
+    margin-top: 5px;
+    color: #3A8DFF;
+}
+
+.cta {
+    margin-top: 25px;
+    padding: 12px 28px;
+    background: #3A8DFF;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0 0 12px #3A8DFF;
+}
+
+.micro {
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #bfbfbf;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 80px 20px;
+}
+
+.service-card {
+    background: #0A0A0A;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid #3A8DFF;
+    box-shadow: 0 0 15px #3A8DFF33;
+}
+
+/* ABOUT */
+.about {
+    padding: 80px 20px;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 80px 20px;
+}
+
+.testimonial {
+    background: #0A0A0A;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #3A8DFF;
+    width: 60%;
+    margin: auto;
+}
+
+/* CONTACT */
+.contact {
+    padding: 80px 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 60%;
+    padding: 12px;
+    margin: 10px 0;
+    background: #0A0A0A;
+    border: 1px solid #3A8DFF;
+    color: #fff;
+    border-radius: 6px;
+}
+
+.contact textarea {
+    height: 120px;
+}
+
+/* FOOTER */
+footer {
+    padding: 40px;
+    color: #bfbfbf;
+    font-size: 0.9rem;
+}
