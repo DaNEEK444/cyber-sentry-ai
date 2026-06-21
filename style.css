@@ -109,3 +109,39 @@ footer {
     color: #bfbfbf;
     font-size: 0.9rem;
 }
+/* PRICING */
+.pricing {
+    padding: 80px 20px;
+}
+
+.pricing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.price-card {
+    background: #0A0A0A;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    border: 1px solid #3A8DFF;
+    box-shadow: 0 0 15px #3A8DFF33;
+}
+
+.price {
+    font-size: 1.8rem;
+    color: #3A8DFF;
+    margin: 10px 0;
+}
+
+/* MISSION, FOUNDER, LEAD MAGNET, DIGITAL PRODUCT, SCHEDULE */
+.mission, .founder, .lead-magnet, .digital-product, .schedule {
+    padding: 80px 20px;
+}
+
+.digital-product .price {
+    font-size: 2rem;
+    color: #3A8DFF;
+}
