@@ -145,3 +145,20 @@ footer {
     font-size: 2rem;
     color: #3A8DFF;
 }
+/* Founder Section Layout */
+.founder-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.founder-photo {
+    width: 260px;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #3ABDFF;
+    box-shadow: 0 0 20px #3ABDFF55;
+}
