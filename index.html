@@ -149,12 +149,57 @@
         Cyber Sentry Defense © 2026
     </footer>
 
-    <!-- your existing content -->
+<!-- Floating Cyber Sentry AI Widget -->
+<div id="cs-ai-widget" style="
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: #0A0F1F;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 50px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+  z-index: 9999;
+">
+  <span style="font-size: 20px;">🤖</span>
+  <span>Cyber Sentry AI</span>
+</div>
 
-    <!-- Floating Cyber Sentry AI Widget -->
-    [https://ai.azure.com/nextgen/r/VJKos5QGR8Ky4Y2TnMzZUg,rg-neektanea-6751,,cyber-sentry-project-resource,cyber-sentry-project/agents/Cyber-Sentry-AI/preview]
+<!-- Chat Window -->
+<div id="cs-ai-chat" style="
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  width: 360px;
+  height: 520px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+  display: none;
+  overflow: hidden;
+  z-index: 9999;
+">
+  <iframe 
+    src="https://ai.azure.com/nextgen/r/VJKos5QGR8Ky4Y2TnMzZUg,rg-neektanea-6751,,cyber-sentry-project-resource,cyber-sentry-project/agents/Cyber-Sentry-AI/preview"
+    style="width: 100%; height: 100%; border: none;">
+  </iframe>
+</div>
+
+<script>
+  const widget = document.getElementById('cs-ai-widget');
+  const chat = document.getElementById('cs-ai-chat');
+
+  widget.addEventListener('click', () => {
+    chat.style.display = chat.style.display === 'none' ? 'block' : 'none';
+  });
+</script>
 
 </body>
 </html>
-</body>
-</html>
+
