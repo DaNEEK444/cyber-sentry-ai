@@ -163,3 +163,11 @@ footer {
     box-shadow: 0 0 20px #3ABDFF55;
     object-fit: cover;
 }
+<section id="ai-agent" class="ai-agent">
+  <h2>Meet the Cyber Sentry AI Agent</h2>
+  <p>Your personal cybersecurity assistant — available 24/7 to answer questions, explain threats, and guide you through staying safe online.</p>
+
+  <a href="https://daneek444.github.io/cyber-sentry-ai/agent" class="cta-button" target="_blank">
+    Chat With the Agent
+  </a>
+</section>
