@@ -55,7 +55,6 @@ body {
   color: #9fb3c8;
 }
 
-
 /* ABOUT */
 .about {
     padding: 80px 20px;
@@ -101,6 +100,7 @@ footer {
     color: #bfbfbf;
     font-size: 0.9rem;
 }
+
 /* PRICING */
 .pricing {
     padding: 80px 20px;
@@ -137,6 +137,7 @@ footer {
     font-size: 2rem;
     color: #3A8DFF;
 }
+
 /* Founder Section Layout */
 .founder-wrapper {
     display: flex;
@@ -148,21 +149,33 @@ footer {
 }
 
 .founder-photo {
-    width: 180px;        /* smaller, cleaner */
+    width: 180px;
     height: auto;
     border-radius: 12px;
     border: 2px solid #3ABDFF;
     box-shadow: 0 0 20px #3ABDFF55;
     object-fit: cover;
 }
-<section id="ai-agent" class="ai-agent">
-  <h2>Meet the Cyber Sentry AI Agent</h2>
-  <p>Your personal cybersecurity assistant — available 24/7 to answer questions, explain threats, and guide you through staying safe online.</p>
 
-  <a href="https://daneek444.github.io/cyber-sentry-ai/agent" class="cta-button" target="_blank">
-    Chat With the Agent
-  </a>
-</section>
+/* AI AGENT SECTION */
+.ai-agent {
+  padding: 80px 20px;
+  background: #0a0f1a;
+  border-top: 1px solid #1f2a3a;
+  border-bottom: 1px solid #1f2a3a;
+}
+
+.ai-agent h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.ai-agent p {
+  max-width: 700px;
+  margin: 0 auto 25px;
+  color: #c7d2e0;
+}
+
 /* SERVICES SECTION */
 .services {
   padding: 60px 20px;
@@ -216,5 +229,3 @@ footer {
 .service-btn:hover {
   background: #00a4d6;
 }
-
-
