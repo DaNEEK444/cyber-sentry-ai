@@ -7,62 +7,54 @@ body {
     text-align: center;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
-    padding: 120px 20px;
+  background: #0a0f1a;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  border-bottom: 1px solid #1f2a3a;
+}
+
+.hero-content {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .hero h1 {
-    font-size: 3rem;
-    letter-spacing: 2px;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.sub {
-    font-size: 1.2rem;
-    color: #bfbfbf;
-    margin-top: 10px;
+.hero-subtext {
+  font-size: 1.2rem;
+  color: #c7d2e0;
+  margin-bottom: 30px;
 }
 
-.support {
-    margin-top: 5px;
-    color: #3A8DFF;
+.cta-button {
+  display: inline-block;
+  background: #00c2ff;
+  color: #000;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
 }
 
-.cta {
-    margin-top: 25px;
-    padding: 12px 28px;
-    background: #3A8DFF;
-    border: none;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 6px;
-    box-shadow: 0 0 12px #3A8DFF;
+.cta-button:hover {
+  background: #00a4d6;
 }
 
-.micro {
-    margin-top: 10px;
-    font-size: 0.8rem;
-    color: #bfbfbf;
+.trust-text {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #9fb3c8;
 }
 
-/* SERVICES */
-.services {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    padding: 80px 20px;
-}
-
-.service-card {
-    background: #0A0A0A;
-    padding: 25px;
-    width: 280px;
-    border-radius: 10px;
-    border: 1px solid #3A8DFF;
-    box-shadow: 0 0 15px #3A8DFF33;
-}
 
 /* ABOUT */
 .about {
