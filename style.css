@@ -163,3 +163,50 @@ footer {
     Chat With the Agent
   </a>
 </section>
+/* SERVICES SECTION */
+.services {
+  padding: 60px 20px;
+  background: #0d1522;
+  color: white;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.service-card {
+  background: #111b2e;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  border: 1px solid #1f2a3a;
+}
+
+.service-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #c7d2e0;
+  margin-bottom: 20px;
+}
+
+.service-btn {
+  display: inline-block;
+  background: #00c2ff;
+  color: #000;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.service-btn:hover {
+  background: #00a4d6;
+}
+
