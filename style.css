@@ -82,3 +82,14 @@ body {
   background: #0a0f2c;
   color: white;
 }
+.logo-banner {
+  width: 100%;
+  background: #0a0f2c;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.logo-banner img {
+  width: 200px;
+  height: auto;
+}
