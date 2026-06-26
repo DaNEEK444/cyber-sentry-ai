@@ -1,231 +1,84 @@
-/* GLOBAL */
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    background: #000000;
-    color: #ffffff;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  color: #222;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
-  background: #0a0f1a;
-  color: white;
-  padding: 80px 20px;
   text-align: center;
-  border-bottom: 1px solid #1f2a3a;
-}
-
-.hero-content {
-  max-width: 700px;
-  margin: 0 auto;
+  padding: 60px 20px;
+  background: #0a0f2c;
+  color: white;
 }
 
 .hero h1 {
-  font-size: 2.4rem;
-  font-weight: 700;
-  margin-bottom: 15px;
-}
-
-.hero-subtext {
-  font-size: 1.2rem;
-  color: #c7d2e0;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  display: inline-block;
-  background: #00c2ff;
-  color: #000;
-  padding: 14px 28px;
-  border-radius: 8px;
-  font-size: 1.1rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.2s ease;
-}
-
-.cta-button:hover {
-  background: #00a4d6;
-}
-
-.trust-text {
-  margin-top: 20px;
-  font-size: 0.95rem;
-  color: #9fb3c8;
-}
-
-/* ABOUT */
-.about {
-    padding: 80px 20px;
-}
-
-/* TESTIMONIALS */
-.testimonials {
-    padding: 80px 20px;
-}
-
-.testimonial {
-    background: #0A0A0A;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #3A8DFF;
-    width: 60%;
-    margin: auto;
-}
-
-/* CONTACT */
-.contact {
-    padding: 80px 20px;
-}
-
-.contact input,
-.contact textarea {
-    width: 60%;
-    padding: 12px;
-    margin: 10px 0;
-    background: #0A0A0A;
-    border: 1px solid #3A8DFF;
-    color: #fff;
-    border-radius: 6px;
-}
-
-.contact textarea {
-    height: 120px;
-}
-
-/* FOOTER */
-footer {
-    padding: 40px;
-    color: #bfbfbf;
-    font-size: 0.9rem;
-}
-
-/* PRICING */
-.pricing {
-    padding: 80px 20px;
-}
-
-.pricing-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-}
-
-.price-card {
-    background: #0A0A0A;
-    padding: 25px;
-    width: 280px;
-    border-radius: 10px;
-    border: 1px solid #3A8DFF;
-    box-shadow: 0 0 15px #3A8DFF33;
-}
-
-.price {
-    font-size: 1.8rem;
-    color: #3A8DFF;
-    margin: 10px 0;
-}
-
-/* MISSION, FOUNDER, LEAD MAGNET, DIGITAL PRODUCT, SCHEDULE */
-.mission, .founder, .lead-magnet, .digital-product, .schedule {
-    padding: 80px 20px;
-}
-
-.digital-product .price {
-    font-size: 2rem;
-    color: #3A8DFF;
-}
-
-/* Founder Section Layout */
-.founder-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.founder-photo {
-    width: 180px;
-    height: auto;
-    border-radius: 12px;
-    border: 2px solid #3ABDFF;
-    box-shadow: 0 0 20px #3ABDFF55;
-    object-fit: cover;
-}
-
-/* AI AGENT SECTION */
-.ai-agent {
-  padding: 80px 20px;
-  background: #0a0f1a;
-  border-top: 1px solid #1f2a3a;
-  border-bottom: 1px solid #1f2a3a;
-}
-
-.ai-agent h2 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.ai-agent p {
-  max-width: 700px;
-  margin: 0 auto 25px;
-  color: #c7d2e0;
-}
-
-/* SERVICES SECTION */
-.services {
-  padding: 60px 20px;
-  background: #0d1522;
-  color: white;
-  text-align: center;
-}
-
-.section-title {
-  font-size: 2rem;
-  margin-bottom: 40px;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 25px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.service-card {
-  background: #111b2e;
-  padding: 25px;
-  border-radius: 10px;
-  border: 1px solid #1f2a3a;
-  text-align: left;
-}
-
-.service-card h3 {
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
-.service-card p {
-  color: #c7d2e0;
-  margin-bottom: 20px;
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
 }
 
-.service-btn {
+.hero-ctas .btn {
+  margin: 8px;
+}
+
+/* BUTTONS */
+.btn {
   display: inline-block;
-  background: #00c2ff;
-  color: #000;
-  padding: 12px 24px;
+  padding: 12px 20px;
   border-radius: 8px;
-  font-weight: 600;
   text-decoration: none;
-  transition: 0.2s ease;
+  font-weight: bold;
 }
 
-.service-btn:hover {
-  background: #00a4d6;
+.btn.primary {
+  background: #4a7cff;
+  color: white;
+}
+
+.btn.secondary {
+  background: white;
+  color: #0a0f2c;
+  border: 2px solid white;
+}
+
+/* SERVICES GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* SERVICE CARDS */
+.service-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card h3 {
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+}
+
+.service-card p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.service-card .btn {
+  margin-top: auto;
+  background: #0a0f2c;
+  color: white;
 }
